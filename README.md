@@ -79,7 +79,7 @@ This is a Guide for setup for this application.
 
         $ CREATE DATABASE product_db;
 
-        $ CREATE USER test WITH PASSWORD 'test1';
+        $ CREATE USER test1 WITH PASSWORD 'test';
 
         $ ALTER ROLE test1 SET client_encoding TO 'utf8';
 
