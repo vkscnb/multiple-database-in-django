@@ -1,0 +1,11 @@
+user.sqlite3
+product.sqlite3
+
+product/__pycache__
+product/migrations/00*
+product/migrations/__pycache__
+user/migrations/00*
+user/migrations/__pycache__
+user/__pycache__
+tradexa/__pycache__
+routers/__pycache__
