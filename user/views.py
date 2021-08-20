@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import redirect
-from django.contrib import messages
+
 from django.contrib.auth import logout
 from django.contrib.auth import authenticate,login
 from .forms import UserRegisterForm
@@ -22,7 +22,6 @@ def user_login(request):
         
         if user is not None:
             form = login(request,user)
-            messages.success(request, f' Welcome {email} !!')
 
             return redirect('user_dashboard:home')
 
