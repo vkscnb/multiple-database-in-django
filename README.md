@@ -37,7 +37,7 @@ This is a Guide for setup for this application.
 
     1. Go to locations
 
-        <pre>$ cd multiple-database-in-django<pre>
+        <pre>$ cd multiple-database-in-django</pre>
 
     2. Install below command for install all requirements and db migrations.
 
