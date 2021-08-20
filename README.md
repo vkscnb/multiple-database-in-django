@@ -42,7 +42,7 @@ This is a Guide for setup for this application.
     2. Install below command for install all requirements and db migrations.
 
         <pre>
-            $ pip install -r requirments.txt
+            $ pip install -r requirements.txt
 
             $ python manage.py makemigrations
 
@@ -57,6 +57,9 @@ This is a Guide for setup for this application.
 
     4. Open in browser-
         <pre>http://127.0.0.1:8000</pre>
+
+    5. For create Super User RUN - 
+        <pre>python manage.py createsuperuser --database=user_db</pre>
         
 
 
