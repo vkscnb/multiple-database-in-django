@@ -65,17 +65,14 @@ This is a Guide for setup for this application.
 ## Setup.
 1. Intall postgres.
     <pre>
-
         $ sudo apt update
 
         $ sudo apt install postgresql postgresql-contrib
-
     </pre>
 
 2. Create database and user.
 
     <pre>
-
         $ sudo su -  postgres
 
         $ psql
@@ -91,7 +88,6 @@ This is a Guide for setup for this application.
         $ ALTER ROLE test1 SET timezone TO 'UTC';
 
         $ GRANT ALL PRIVILEGES ON DATABASE product_db TO test1;
-
     </pre>
 
 3. Modify code of tradexa/settings.py
